@@ -1,15 +1,11 @@
 "use client";
-import Image from "next/image";
-import girl from "@/assets/images/girl pic.jpg";
-import Typewriter from "typewriter-effect";
-import { Box } from "@mui/material";
-import { Fullscreen } from "@mui/icons-material";
-import SearchIcon from "@mui/icons-material/Search";
+import Clients from "@/components/clients";
+import Templates from "@/components/templates";
+// import BackgroudImage from "@/app/assets/images/bg/1.jpg";
 import Homepage from "@/components/herosection";
-import Laptop from "@/assets/images/laptop.png";
-import Laptop2 from "@/assets/images/laptop2.png";
-import Showitsection from "@/components/showitsection";
 import Shooting from "@/components/shooting";
+import Showitsection from "@/components/showitsection";
+import { Box } from "@mui/material";
 
 export default function HomePage() {
   return (
@@ -19,6 +15,9 @@ export default function HomePage() {
         <Showitsection />
         <Shooting />
       </div>
+      <Clients />
+
+      <Templates />
     </Box>
   );
 }
