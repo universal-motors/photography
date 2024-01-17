@@ -19,7 +19,6 @@ export default function Header() {
           of it.Shop our template collection
           <TrendingFlatIcon />
         </div>
-
       </div>
 
       <div className="flex justify-between items-center h-24">
@@ -41,17 +40,12 @@ export default function Header() {
           <div className="border border-black  px-4 py-1 rounded-2xl text-[12px] xl:text-[16px]">
             <button>Shop Templates</button>
             <ShoppingCartIcon />{" "}
-
           </div>
-
         </div>
-        <div className="!flex lg:!hidden items-center px-2" ><Dehazeicon /></div>
-
+        <div className="!flex lg:!hidden items-center px-2">
+          <Dehazeicon />
+        </div>
       </div>
-
-
     </div>
-
-
   );
 }

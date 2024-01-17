@@ -4,9 +4,10 @@ import Templates from "@/components/templates";
 // import BackgroudImage from "@/app/assets/images/bg/1.jpg";
 import { Box } from "@mui/material";
 export default function HomePage() {
-  return <Box sx={{ width: "100%" }}>
-    <Clients />
-    {/* <div>
+  return (
+    <Box sx={{ width: "100%" }}>
+      <Clients />
+      {/* <div>
       <div className="w-full h-96 bg-slate-600" >
         <div className="text-center text-white"><p>From Our Clients...</p>
           <p>"I'm making over 100k a year and working with  </p>
@@ -19,6 +20,7 @@ export default function HomePage() {
 
     </div> */}
 
-    <Templates />
-  </Box>;
+      <Templates />
+    </Box>
+  );
 }
