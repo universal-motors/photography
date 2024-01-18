@@ -1,11 +1,10 @@
 "use client";
-import Link from "next/link";
-import { useState } from "react";
+import BCo from "@/assets/images/bco.png";
+import Dehazeicon from "@mui/icons-material/Dehaze";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import TrendingFlatIcon from "@mui/icons-material/TrendingFlat";
 import Image from "next/image";
-import BCo from "@/assets/images/bco.png";
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import Dehazeicon from "@mui/icons-material/Dehaze";
+import { useState } from "react";
 export default function Header() {
   const [isOpen, setMenu] = useState(true);
   const toggleMenu = () => {
