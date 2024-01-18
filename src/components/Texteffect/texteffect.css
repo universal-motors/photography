@@ -1,0 +1,30 @@
+.fade-in-out-container {
+  height: 200px;
+  /* Adjust as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.fade-in-out-paragraph {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-in-out-paragraph.visible {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+  animation: moveDown 1s ease-in-out;
+  /* Change the animation name to moveDown */
+}
+
+@keyframes moveDown {
+  from {
+    transform: translateY(20px);
+    /* Move the text down by 20px */
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
