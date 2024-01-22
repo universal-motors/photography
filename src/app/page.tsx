@@ -1,6 +1,7 @@
 "use client";
 import Clients from "@/components/clients";
 import Templates from "@/components/templates";
+
 // import BackgroudImage from "@/app/assets/images/bg/1.jpg";
 import Homepage from "@/components/herosection";
 import Shooting from "@/components/shooting";
