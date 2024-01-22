@@ -6,7 +6,7 @@ import girl from "@/assets/images/girl.jpg";
 export default function Clients() {
   return (
     <div>
-      <section className=" bg-[#F5F5F5] w-full table relative h-[60vh]  items-center overflow-hidden">
+      <section className=" bg-[#F5F5F5] w-full table relative h-[60vh]  items-center ">
         <Image
           src={girl}
           alt="Background Image"
@@ -19,7 +19,6 @@ export default function Clients() {
           }}
         />
         <div className="absolute inset-0 bg-black  opacity-40"></div>
-
         <div className=" text-white leading-10 text-[14px] py-24  px-[20%] absolute sm:!text-[24px]">
           <p>From Our Clients...</p>
           <p>"I'm making over 100k a year and working with </p>
