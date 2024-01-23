@@ -8,6 +8,8 @@ import Showitsection from "@/components/showitsection";
 import { Box } from "@mui/material";
 import Business from "@/components/business";
 import Case from "@/components/case";
+import Designer from "@/components/designer";
+import Black from "@/components/black";
 
 export default function HomePage() {
   return (
@@ -22,6 +24,8 @@ export default function HomePage() {
       <Templates />
       <Business />
       <Case />
+      {/* <Designer /> */}
+      <Black />
     </Box>
   );
 }
