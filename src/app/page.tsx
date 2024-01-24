@@ -6,6 +6,8 @@ import Homepage from "@/components/herosection";
 import Shooting from "@/components/shooting";
 import Showitsection from "@/components/showitsection";
 import { Box } from "@mui/material";
+import Rediscover from "@/components/discover";
+import Discover from "@/components/discover";
 
 export default function HomePage() {
   return (
@@ -14,10 +16,12 @@ export default function HomePage() {
       <div>
         <Showitsection />
         <Shooting />
+
       </div>
       <Clients />
 
       <Templates />
+      <Discover />
     </Box>
   );
 }
