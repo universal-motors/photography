@@ -14,12 +14,12 @@ export default function HomePage() {
     <Box sx={{ width: "100%" }}>
       <Homepage />
       <div>
-        <Showitsection />
-        <Shooting />
+        {/* <Showitsection /> */}
+        {/* <Shooting /> */}
       </div>
-      <Clients />
+      {/* <Clients /> */}
 
-      <Templates />
+      {/* <Templates /> */}
       <Discover />
     </Box>
   );
