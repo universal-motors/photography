@@ -12,7 +12,7 @@ export default function Header() {
   };
   return (
     <div className=" ">
-      <div className=" flex text-[20px] text-center md:text-[14px] justify-end p-2 bg-[#C7B2A2] font-bold text-[white]  ">
+      <div className=" flex text-[18px] text-center md:text-[14px] justify-end p-2 bg-[#C7B2A2] font-bold text-[white]  ">
         <div className="flex-col  md:flex-row ">
           Let me guess you built your first website yourself and you've grownout
           of it.Shop our template collection
