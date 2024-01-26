@@ -6,29 +6,37 @@ import frame from "@/assets/images/frame.jpg";
 
 export default function Websitetips() {
   return (
-    <div className="w-full  bg-[#4D4524]">
-      <div className="flex ">
+    <div className="w-[100%]  bg-[#4D4524]">
+      <div className="flex flex-wrap justify-center py-52 gap-14">
         <div className=" flex flex-col ">
           <div>
-            <Image className="w-[331px] h-[504px]" src={vase} alt="" />
+            <Image
+              className="w-[331px]  h-[504px] !px-5 sm:!px-0"
+              src={vase}
+              alt=""
+            />
           </div>
-          <div className="text-white">
-            <p>Website Tips</p>
+          <div className="text-white text-[14px] mt-4 !px-5 sm:!px-0">
+            <p>WEBSITE TIPS</p>
           </div>
-          <div className="text-white">
+          <div className="text-white !text-[22px] sm:!text-[24px] py-2 w-[296px] !px-5 sm:!px-0">
             {" "}
-            <p>Why I Recommend Working With A Copywriter For Your Website</p>
+            <p>Why I Recommend Working With A Copy writer For Your Website</p>
           </div>
         </div>
 
         <div className="flex flex-col">
           <div>
-            <Image className="w-[331px] h-[314px]" src={tab} alt="" />
+            <Image
+              className="w-[331px] h-[314px] !px-5 sm:!px-0"
+              src={tab}
+              alt=""
+            />
           </div>
-          <div className="text-white">
-            <p>Business</p>
+          <div className="text-white text-[14px] mt-4 !px-5 sm:!px-0">
+            <p>BUSINESS</p>
           </div>
-          <div className="text-white">
+          <div className="text-white !text-[22px] sm:!text-[24px] py-2 w-[296px] !px-5 sm:!px-0 ">
             {" "}
             <p>How Having a Mediocre Website Was Costing Me Money</p>
           </div>
@@ -36,12 +44,16 @@ export default function Websitetips() {
 
         <div className="flex flex-col">
           <div>
-            <Image className="w-[331px] h-[441px]" src={frame} alt="" />
+            <Image
+              className=" !w-[310px]  sm:!w-[331px] h-[441px] !pl-8 sm:!pl-0"
+              src={frame}
+              alt=""
+            />
           </div>
-          <div className="text-white">
-            <p>Business</p>
+          <div className="text-white text-[14px] mt-4 !px-8 sm:!px-0">
+            <p>BUSINESS</p>
           </div>
-          <div className="text-white">
+          <div className="text-white !text-[22px] sm:!text-[24px] py-2 w-[340px] !px-8 sm:!px-0">
             {" "}
             <p>7 Signs You Might Be Ready For A New Website</p>
           </div>
