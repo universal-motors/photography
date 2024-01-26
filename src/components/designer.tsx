@@ -9,7 +9,7 @@ import { Button } from "@mui/material";
 export default function Designer() {
   return (
     <div className="w-full ">
-      <section className="w-full relative  sm:!h-[50vh]  bg-white  ">
+      <section className="  w-full relative  sm:!h-[50vh]  bg-white  ">
         <Image
           src={tablet}
           alt="Background Image"
@@ -23,11 +23,11 @@ export default function Designer() {
         <div className=" inset-0 bg-black w-full h-full  opacity-50 absolute top-0"></div>
         <div>
           <div className="relative  h-[20%] flex  justify-center top-48">
-            <Image className="w-[279px]" src={girl1} alt="" />
+            <Image className="!w-[80%] md:!w-[279px]" src={girl1} alt="" />
           </div>
 
           <div className="w-full bg-[#F5F5F5]">
-            <div className=" relative  text-[#FFFFFF]  !text-[72px]  md:!text-[81px] flex flex-wrap justify-center bottom-2 ">
+            <div className=" relative  text-[#FFFFFF]  !text-[50px]  md:!text-[81px] flex flex-wrap justify-center bottom-2 ">
               MEET<span className="italic">the</span>DESIGNER
             </div>
             <div className="py-28 flex flex-col items-center  ">
