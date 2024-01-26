@@ -42,19 +42,45 @@ export default function Showitsection() {
           </p>{" "}
           <p>impactful, and elevated through every detail.</p>
         </div>
-        <div className=" flex justify-center  flex-col items-center sm:items-start md:flex-row gap-52 mt-16 mb-10 flex-wrap ">
-          <div className=" w-[80%] sm:w-[250px] flex gap-9  ">
-            <div className="text-[#131313] text-[20px] lg:text-[32px] ">
+        <div className=" flex justify-start md:justify-center  flex-col items-center md:flex-row  gap-0 md:gap-52 mt-16 mb-10 ">
+          <div className="  w-[90%] lg:w-[400px] flex gap-2 md:gap-9 relative top-9 md:top-0">
+            <div className="text-[#131313] text-[20px] lg:text-[32px] !hidden md:!flex ">
               <p>
                 Custom <i>design</i>{" "}
               </p>
             </div>
+            <div>
+              <Image
+                src={Laptop}
+                className=" w-[60%] lg:w-[395px]"
+                style={{ objectFit: "cover" }}
+                alt=""
+              />
+            </div>
 
-            <Image src={Laptop} alt="" />
+            <div className="text-[#131313] text-[14px] lg:text-[32px] !flex md:!hidden">
+              <p>
+                Custom <i>design</i>{" "}
+              </p>
+            </div>
           </div>
-          <div className="w-[80%] sm:w-[250px]  flex items-end !gap-8">
-            <Image src={Laptop2} alt="" />
-            <div className="text-[#131313] text-[19px] sm:text-[22px]   ">
+          <div className="w-[90%] lg:w-[420px]  flex items-end gap-2 md:gap-8  ">
+            <div className="text-[#131313] text-[14px] xl:text-[20px] !flex md:!hidden">
+              <p>
+                {" "}
+                <i>Shop</i> Templates
+              </p>
+            </div>
+            <div>
+              <Image
+                className=" w-[60%] lg:w-[395px]"
+                style={{ objectFit: "cover" }}
+                src={Laptop2}
+                alt=""
+              />
+            </div>
+
+            <div className="text-[#131313] text-[18px] xl:text-[20px]  !hidden md:!flex">
               <p>
                 {" "}
                 <i>Shop</i> Templates

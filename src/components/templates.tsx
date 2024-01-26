@@ -9,7 +9,7 @@ import CallMadeIcon from "@mui/icons-material/CallMade";
 export default function Templates() {
   return (
     <div>
-      <div className="w-full h-[60vh] bg-white ">
+      <div className="w-full  bg-white ">
         <div className="!py-24 w-[75%] m-auto">
           <div className="flex justify-evenly flex-col gap-4 sm:flex-row ">
             <div className="flex flex-col gap-4 ">
@@ -61,14 +61,18 @@ export default function Templates() {
                 <p className="text-sm">help but sign up to work with you.</p>
               </div>
 
-              <div className="border border-black w-72 rounded-full px-1 py-3 text-sm text-center">
+              <div className="border border-black !w-[260px] !sm:w-72 rounded-full px-1 py-3 text-sm text-center">
                 {" "}
                 <button>SHOP OUR TEMPLATE COLLECTION</button>
                 <TrendingFlatIcon />
               </div>
             </div>
             <div className="flex flex-col  ">
-              <Image className="h-[80%] rounded-xl " src={frame1} alt="" />
+              <Image
+                className="h-[446px] w-[310px] rounded-xl "
+                src={frame1}
+                alt=""
+              />
               <div className="py-4">
                 Norwalk
                 <CallMadeIcon />

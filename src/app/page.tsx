@@ -1,13 +1,13 @@
 "use client";
-import Clients from "@/components/clients";
 import Templates from "@/components/templates";
+
 // import BackgroudImage from "@/app/assets/images/bg/1.jpg";
-import Homepage from "@/components/herosection";
-import Shooting from "@/components/shooting";
-import Showitsection from "@/components/showitsection";
-import { Box } from "@mui/material";
-import Rediscover from "@/components/discover";
+import Black from "@/components/black";
+import Business from "@/components/business";
+import Case from "@/components/case";
 import Discover from "@/components/discover";
+import Homepage from "@/components/herosection";
+import { Box } from "@mui/material";
 
 export default function HomePage() {
   return (
@@ -18,9 +18,13 @@ export default function HomePage() {
         {/* <Shooting /> */}
       </div>
       {/* <Clients /> */}
-
       {/* <Templates /> */}
       <Discover />
+      <Templates />
+      <Business />
+      <Case />
+      {/* <Designer /> */}
+      <Black />
     </Box>
   );
 }
