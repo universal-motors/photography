@@ -22,6 +22,7 @@ export default function Designer() {
         />
       </section>
       <div className=" inset-0 bg-black w-full h-full  opacity-50  top-0"></div>
+
       <div className="relative bottom-52">
         <div className="  h-[20%] flex  justify-center ">
           <Image
