@@ -18,11 +18,14 @@ export default function Hero() {
       <div className="relative inset-0 bg-black flex justify-center  opacity-40 h-[60vh]">
         <div className=" text-[white] w-[90%] lg:w-[872px]  flex flex-col justify-center items-center ">
           <div className="text-[10px] sm:text-[14px] ">
-            SHOWIT DESIGN PARTNER SERVING PHOTOGRAPHERS
+            <p> SHOWIT DESIGN PARTNER SERVING PHOTOGRAPHERS</p>
           </div>
           <div className="text-[30px] md:text-[44px] w-[90%] lg:w-[872px] text-center mt-4">
-            Warm, layered, emotion-driven design for passionate wedding
-            photographers.
+            <p>
+              {" "}
+              Warm, layered, emotion-driven design for passionate wedding
+              photographers.
+            </p>
           </div>
         </div>
       </div>

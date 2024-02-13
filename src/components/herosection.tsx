@@ -7,7 +7,7 @@ import FadeInOut from "./Texteffect";
 
 export default function Homepage() {
   return (
-    <section className=" bg-[#F5F5F5] w-full table relative h-[60vh]  items-center overflow-hidden">
+    <section className="py-24 w-full table relative h-[60vh] ">
       <Image
         src={girl}
         alt="Background Image"
@@ -19,7 +19,7 @@ export default function Homepage() {
           top: "0px",
         }}
       />
-      <div className="absolute inset-0 bg-black  opacity-40"></div>
+      <div className="absolute inset-0 bg-black opacity-40"></div>
       <div className="w-[90%] sm:w-full relative flex flex-col justify-center items-center  h-full ">
         <div className="grid grid-cols-1  mt-10 w-[90%] sm:w-[700px] border-b-2 border-[#ffffff]  ">
           <h2 className="text-white text-[20px] ">The Buffalo Collective</h2>
