@@ -1,6 +1,15 @@
 import React from "react";
-import Websitetips from "./component/websitetips";
+import Ourbrands from "./component/Ourbrands";
+import Portfoliofooter from "./component/portfoliofooter";
+import Websitetips from "@/components/websitetips";
 
 export default function page() {
-  return <Websitetips />;
+  return (
+    <>
+      <Ourbrands />
+      <Portfoliofooter />
+      <Websitetips />
+    </>
+  );
+
 }

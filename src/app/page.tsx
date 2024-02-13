@@ -6,6 +6,7 @@ import Homepage from "@/components/herosection";
 import Shooting from "@/components/shooting";
 import Showitsection from "@/components/showitsection";
 import { Box } from "@mui/material";
+
 import Business from "@/components/business";
 import Case from "@/components/case";
 import Designer from "@/components/designer";
